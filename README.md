@@ -71,7 +71,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/user-attachments/assets/9bcaff70-e755-4865-b0ec-a1a313ab74e3)
 
-
 <h3>Part 3: Ensure Connectivity between the Client and Domain Controller</h3>
 
   

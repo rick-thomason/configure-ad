@@ -142,6 +142,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Part 6: Creat an Admin and Normal User Account in AD</h3>
 
+- In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called "_EMPLOYEES"
+
+- Create a new OU named "_ADMINS"
+
+- Create a new employeed named "Rick Doe" (same password) with the username of "rick_admin"
+
+- Add rick_admin to the "Domain Admins" Security Group
+
+- log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\rick_admin"
+
+- User rick_admin as your domain admin account from now on
+
 <h3>Part 7: Join Client-1 to your Domain (mydomain.com)</h3>
 
 <h3>Part 8: Setup Remote Desktop for Non-Administrative Users on Client-1</h3>

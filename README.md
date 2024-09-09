@@ -99,6 +99,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
   ![image](https://github.com/user-attachments/assets/26580831-56db-4ac3-b751-ea73601bd332)
 
+<h3>Part 5: Install Active Directory</h3>
 
-  
+- Login to DC-1 and Install Active Directory Domain Servies
+
+- Promote as DC: Setup a new forest as mydomain.com (can be anything, this is just what I decided to choose and make sure you don't forget what it is)
+
+- Restart and then log back into DC-1 as user: mydomain\<username>
+
+<h3>Part 6: Creat an Admin and Normal User Account in AD</h3>
+
+<h3>Part 7: Join Client-1 to your Domain (mydomain.com)</h3>
+
+<h3>Part 8: Setup Remote Desktop for Non-Administrative Users on Client-1</h3>
+
+<h3>Part 9: Create Users and log into Client-1 with one of the users</h3>
 

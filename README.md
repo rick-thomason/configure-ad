@@ -103,7 +103,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Login to DC-1 and Install Active Directory Domain Servies
 
+- Open Server Manage
+    - Click Add Roles and Features
+       ![image](https://github.com/user-attachments/assets/65fa617e-f1a9-4ed7-aa66-c0ed275f5bcd)
+
+    - Click Next
+    - Click Next
+    - Under Server Selecton, choose DC-1
+    - Under Server Roles, check Active Directory Domain Services, click Add Features
+    - Click Next the rest of the way until clicking Install (can optionally check automatically restart server before clicking install)
+ 
+      ![image](https://github.com/user-attachments/assets/f996aeaf-b4ed-4feb-845e-35084f1c35e7)
+
 - Promote as DC: Setup a new forest as mydomain.com (can be anything, this is just what I decided to choose and make sure you don't forget what it is)
+
+- Click the yellow warning flag at the top right and then select Promote this server to a domain controller
+
+  ![image](https://github.com/user-attachments/assets/05542847-80f7-47a2-b240-a028643ae392)
 
 - Restart and then log back into DC-1 as user: mydomain\<username>
 

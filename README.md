@@ -22,6 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Resources in Azure (Create Domain Controller and Client with the use of Virtual Machines)
 - Set Domain Controller's NIC Private IP Address to Static
 - Set Client's DNS server to Domain Controller's Private IP Address
+- Ensure Connectivity between the Client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in Active Directory
 - Join Client to your domain (mydomain.com)
@@ -84,6 +85,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/user-attachments/assets/7189e34a-e349-4c9b-a64f-d2d47d172c40)
 
+<h3>Part 4: Ensure Connectivity between the client and Domain Controller</h3>
+
+- Login to Client-1 with Remote Desktop and ping DC-1's private IP address with "ping -t <IP address>
+
+- Login into the Domain Controller and enable ICMPv4 in on the local windows Firewall
+
+- Check back at Client-1 to see the ping succeed
   
 
 

@@ -60,7 +60,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Click Review and Create
 
-<h3>Part 2: Ensure Connectivity between the Client and Domain Controller</h3>
+<h3>Part 2: Set DC-1's NIC Private IP Address to Static</h3>
+
+- Click on DC-1 under Virtual Machines
+- Click Network Settings and then click DC-1's Network Interface / IP configuration
+
+  ![image](https://github.com/user-attachments/assets/0b532826-1170-4ff3-9316-ca569af06d15)
+
+- Click on "ipconfig" and then change Private IP address settings from Dynamic to Static and click Save
+
+  ![image](https://github.com/user-attachments/assets/9bcaff70-e755-4865-b0ec-a1a313ab74e3)
+
+
+<h3>Part 3: Ensure Connectivity between the Client and Domain Controller</h3>
 
   
 

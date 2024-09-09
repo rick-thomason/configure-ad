@@ -105,10 +105,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Open Server Manage
     - Click Add Roles and Features
+      
        ![image](https://github.com/user-attachments/assets/65fa617e-f1a9-4ed7-aa66-c0ed275f5bcd)
 
     - Click Next
-    - Click Next
+    - Click Next again
     - Under Server Selecton, choose DC-1
     - Under Server Roles, check Active Directory Domain Services, click Add Features
     - Click Next the rest of the way until clicking Install (can optionally check automatically restart server before clicking install)
@@ -120,6 +121,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Click the yellow warning flag at the top right and then select Promote this server to a domain controller
 
   ![image](https://github.com/user-attachments/assets/05542847-80f7-47a2-b240-a028643ae392)
+
+- Select Add a New Forest, create a root domain name, and click next
+
+  ![image](https://github.com/user-attachments/assets/286e35f6-fe47-4aa1-83f7-d1d1cb288071)
+
+-Create a password and click next
+
+- Uncheck create DNS delegation and click next
+
+  ![image](https://github.com/user-attachments/assets/8cabff9d-918f-4165-bebb-7faeecbbaaf3)
+
+- Let it autofill the NETBIOS domain name and click next
+
+- Click next until you get to install and just install
 
 - Restart and then log back into DC-1 as user: mydomain\<username>
 

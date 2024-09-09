@@ -136,7 +136,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Click next until you get to install and just install
 
-- Restart and then log back into DC-1 as user: mydomain\<username>
+- Restart and then log back into DC-1 as user: mydomain\<username> ( in my case it's mydomain.com\labuser, this is what I made in Azure)
+
+  ![image](https://github.com/user-attachments/assets/39080d94-14da-4e01-9189-42e1337869ec)
 
 <h3>Part 6: Creat an Admin and Normal User Account in AD</h3>
 

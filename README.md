@@ -20,7 +20,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Setup Resources in Azure (Create Domain Controller and Client with the use of Virtual Machines)
-- Ensure Connectivity between the Client and Domain Controller
+- Set Domain Controller's NIC Private IP Address to Static
+- Set Client's DNS server to Domain Controller's Private IP Address
 - Install Active Directory
 - Create an Admin and Normal User Account in Active Directory
 - Join Client to your domain (mydomain.com)
@@ -71,7 +72,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/user-attachments/assets/9bcaff70-e755-4865-b0ec-a1a313ab74e3)
 
-<h3>Part 3: Ensure Connectivity between the Client and Domain Controller</h3>
+<h3>Part 3: Set Client's DNS server to Domain Controller's Private IP Address</h3>
+
+- In Client-1's VM click Network Settings and click Network Interface / IP configuration
+
+- On the left, click DNS Servers
+
+- Under DNS Servers, Select Custom
+
+- Where it says Add DNS Server, paste DC-1's private IP Address and save
+
+  ![image](https://github.com/user-attachments/assets/7189e34a-e349-4c9b-a64f-d2d47d172c40)
 
   
 

@@ -217,3 +217,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Part 9: Create Users and log into Client-1 with one of the users</h3>
 
+- Login to DC-1 as rick_admin
+
+- Open PowerShell_ise as an administrator (make sure it is as an administrator)
+
+- Create a new File and past the contents of the script into it
+  https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
+
+- Run the script and observe the accounts being created
+
+- When finished, open ADUC and observe the accounts in the appropriate OU
+
+- Attempt to log into Client-1 with one of the accounts and you should be able to do so now
+
+  
+

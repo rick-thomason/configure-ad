@@ -199,5 +199,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Part 8: Setup Remote Desktop for Non-Administrative Users on Client-1</h3>
 
+- Log into Client-1 as mydomain.com\rick_admin and right click on start and open system properties
+
+- Click Remote Desktop
+
+- ![image](https://github.com/user-attachments/assets/4ddaca8e-b7b5-4e25-ac4f-ccc68ba4d19f)
+
+- Under User Accounts, click "Select users that can remotely acess this PC"
+
+  ![image](https://github.com/user-attachments/assets/90fbb3a0-4317-47b3-abb3-01ed11f61432)
+
+- Click Add and type Domain Users and click OK
+
+  ![image](https://github.com/user-attachments/assets/41191e0f-5b29-47d5-bb78-f9dd703599aa)
+
+- You can now log into Client-1 as a normal, non-administrative user now
+
 <h3>Part 9: Create Users and log into Client-1 with one of the users</h3>
 

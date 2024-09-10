@@ -162,13 +162,34 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Click Apply and then OK
 
-- log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\rick_admin"
+- Log out/close the Remote Desktop connection to DC-1 and log back in as "mydomain.com\rick_admin"
 
   ![image](https://github.com/user-attachments/assets/c78b8324-1863-4752-9e13-ab92786a6ec6)
 
-- User rick_admin as your domain admin account from now on
+- User rick_admin (or whatever you named your admin account) as your domain admin account from now on
 
 <h3>Part 7: Join Client-1 to your Domain (mydomain.com)</h3>
+
+- Log back into to Client-1 VM if logged out and join it to the domain (computer will restart)
+
+    - Right click the Start button and select System
+    - On the right, select Rename this PC
+ 
+      ![image](https://github.com/user-attachments/assets/a7e38c4b-3a45-4f26-86e4-e7f46a951ffc)
+
+    - Under Computer Name tab, choose Change
+ 
+      ![image](https://github.com/user-attachments/assets/ad472159-4564-4523-b95a-b46bdb55e45a)
+
+    - Check Domain under Member Of and type the name of your domain (mine is mydomain.com) and click OK
+ 
+      ![image](https://github.com/user-attachments/assets/c40c9719-f151-4787-aeee-9b4d709b0e42)
+
+    - Type in the admin credentials you have made and click OK
+ 
+      ![image](https://github.com/user-attachments/assets/07e8a673-7a08-4f6e-8b70-ee49a6bcc4cb)
+
+- You have now joined the domain and the VM will restart
 
 <h3>Part 8: Setup Remote Desktop for Non-Administrative Users on Client-1</h3>
 

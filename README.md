@@ -191,6 +191,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - You have now joined the domain and the VM will restart
 
+- Back in ADUC, make another OU named "_CLIENTS" and drag Client-1 from Computers to "_CLIENTS" for organizational purposes
+
+  ![image](https://github.com/user-attachments/assets/36211799-fb8e-4775-ab88-e535ee8bddca)
+
+  ![image](https://github.com/user-attachments/assets/ec8ecbac-1db9-4a42-87f9-d80bf616fcf0)
+
 <h3>Part 8: Setup Remote Desktop for Non-Administrative Users on Client-1</h3>
 
 <h3>Part 9: Create Users and log into Client-1 with one of the users</h3>

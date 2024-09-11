@@ -240,5 +240,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/user-attachments/assets/b913ed73-61c1-4004-8e74-fb84905dc1bc)
 
+- You can do a simple check by opening PowerShell to see that you are using Client-1 with username bap.vix
+
+  ![image](https://github.com/user-attachments/assets/5aea420f-2b45-4ed5-a726-8bf2dd31eb07)
+
   
 

@@ -221,8 +221,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Open PowerShell_ise as an administrator (make sure it is as an administrator)
 
+  ![image](https://github.com/user-attachments/assets/084cc837-3c24-41be-9327-54485dce776a)
+
 - Create a new File and past the contents of the script into it
   https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
+
+  ![image](https://github.com/user-attachments/assets/3ff3b6ef-15fd-4cbe-afb5-500bf2e1a8bd)
 
 - Run the script and observe the accounts being created
 

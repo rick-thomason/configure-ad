@@ -244,5 +244,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
   ![image](https://github.com/user-attachments/assets/5aea420f-2b45-4ed5-a726-8bf2dd31eb07)
 
+<h3>We have successfully deployed Active Directory and created sample users through virtual machines using Microsoft's Azure Cloud Platform.</h3>
   
 
